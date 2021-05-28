@@ -8,19 +8,32 @@ div {
   display: block;
 }
 
-.title {
+.main {
   margin: 30px;
+  float: left;
+}
+
+.title {
   font-size: 4rem;
   font-style: italic;  
+}
+
+.subtitle {
   float: left;
+  font-size: 1.22rem;
+  margin-top: 100px;
+  font-style: italic;
 }
 
 .email {
   margin: 30px;
   font-size: 1.5rem;
-  line-height: 4rem;
   font-style: italic;
   float: right;
+}
+
+.email div {
+  margin-bottom: 0;
 }
 
 .white {
