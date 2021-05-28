@@ -1,0 +1,28 @@
+body {
+  background-image: url(gomashio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+  display: block;
+}
+
+.title {
+  margin: 30px;
+  font-size: 4rem;
+  font-style: italic;  
+  float: left;
+}
+
+.email {
+  margin: 30px;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-style: italic;
+  float: right;
+}
+
+.white {
+  color: white !important;
+}
